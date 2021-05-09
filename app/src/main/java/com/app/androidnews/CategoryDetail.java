@@ -35,7 +35,6 @@ public class CategoryDetail extends AppCompatActivity {
     GetJsonAll getJsonAll;
     List<News> news;
     String title;
-
     SpinKitView spinKitView;
 
     @Override
