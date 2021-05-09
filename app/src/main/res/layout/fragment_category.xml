@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kimi_no_na_wa_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/business"
+            android:text="Business"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#74B1E8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/entertainment"
+            android:text="Entertainment"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#74B1E8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/health"
+            android:text="Health"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#74B1E8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/science"
+            android:text="Science"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/sports"
+            android:text="Sports"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/technology"
+            android:text="Technology"
+            android:gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
